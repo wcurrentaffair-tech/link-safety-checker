@@ -1,0 +1,27 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    height: 100vh;
+    margin: 0;
+}
+
+.glass-card {
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 15px;
+    backdrop-filter: blur(10px);
+    color: white;
+    width: 350px;
+}
+
+input {
+    border-radius: 10px;
+}
+
+button {
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+button:hover {
+    transform: scale(1.05);
+}
